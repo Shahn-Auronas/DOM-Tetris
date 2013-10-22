@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TETRIS</title>
+        <link rel="stylesheet" type="text/css" href="Tetris.css"/>
+        
+	</head>
+	<body>
+
+			
+			
+        <div id="tetris">
+            <div id="info">
+              <div id='title'><div class='letters'> <h1 id='sqiggle'>T</h1></div>
+								<div class='letters'> <h1 id='ee'>E</h1></div>
+								<div class='letters'> <h1 id='tee'>T</h1></div>
+								<div class='letters'> <h1 id='rr'>R</h1></div>
+								<div class='letters'> <h1 id='eye'>I</h1></div>
+								<div class='letters'> <h1 id='ss'>S</h1></div>
+			  </div>
+                <div id="next_shape">asdfasdf</div>
+                <p class="win" id="level">LEVEL: <span></span></p>
+                <p class="win" id="lines">LINES: <span></span></p>
+                <p class="win" id="score">SCORE: <span></span></p>
+                <p class="win" id="time">TIME: <span></span></p>
+                <button id="PB" type="button" onclick=TETRIS.init()>PLAY</button>
+              </div>
+            <div id="canvas"></div>
+             <div id="menu">
+            	<audio id="Crash" src="/Users/shahnauronas/Documents/Crash & Burn Techno update.mp3"></audio>
+  				<audio id="Gaga" src= "/Users/shahnauronas/Documents/Lady Gaga. Paparazi (Shan R.mp3"></audio>
+  				<audio id="Tee Bee" src="/Users/shahnauronas/Documents/Tee Bee.mp3"></audio>
+  				<audio id="Tee Bee" src="/Users/shahnauronas/Documents/Rockstar.mp3"></audio>
+  				<div class="box entypo-music" onclick="document.getElementById('Crash').play()"></div>
+  				<div class="blank1 entypo-blank"></div>
+  				<div class="box entypo-pause" onclick="document.getElementById('Crash').pause()"></div>
+  				<div class="blank2 entypo-blank"></div>
+  				<div class="box entypo-music" onclick="document.getElementById('Gaga').play()"></div>
+  				<div class="blank3 entypo-blank"></div>
+  				<div class="box entypo-pause" onclick="document.getElementById('Gaga').pause()"></div>
+  				<div class="blank4 entypo-blank"></div>
+  				<div class="box entypo-music" onclick="document.getElementById('Tee Bee').play()"></div>
+  				<div class="blank5 entypo-blank"></div>
+  				<div class="box entypo-pause" onclick="document.getElementById('Tee Bee').pause()"></div>
+  				<div class="blank6 entypo-blank"></div>
+  				<a href="https://github.com/Shahn-Auronas"><div class="box entypo-github"></div></a>
+  				<div class="blank7 entypo-blank"></div>
+  				<div class="box entypo-thumbs-up"></div>
+  				<div class="blank8 entypo-blank"></div>
+			</div>
+        </div>
+        <script src="Tetris.js"></script>
+	</body>
+</html> 

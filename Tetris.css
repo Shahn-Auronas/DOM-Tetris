@@ -1,0 +1,70 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+body { background-color: #d7e2e7;}
+
+ul{
+	list-style-type: none;
+	margin: -10px;
+	margin-right: 40px;
+}
+.win {
+    font-family: "Luckiest Guy", sans-serif;
+    font-size: 24px;
+}
+
+li {
+	display: inline;
+	font-family: Osaka;
+	color: white;
+	padding: 4px;
+	border-radius: 5px 5px;
+	background-color: red
+	/*opacity: 0.5;*/
+}
+
+#title { font-size: 30px; font-family: "Luckiest Guy", sans-serif; top: 2px }
+.letters { display: inline-block;}
+#sqiggle { color: #C9B0D6; font-size: 30px; }
+#ee { color: #B3D8D8; font-size: 34px;}
+#tee { color: #D6D6A8; font-size: 30px;}
+#rr { color: #B9B9D6; font-size: 30px;}
+#eye { color: #D4c4A4; font-size: 32px;}
+#ss { color: #D2A7A7; font-size: 26px;}
+
+[class*="entypo-"]:before { font-family: 'entypo', sans-serif; }
+
+#menu .blank1 {float: left; background-color: #C9B0D6; border-radius: 10%; padding: 20px; margin-left:280px; border: 1px solid black; }
+#menu .blank2 {float: left; background-color: #B3D8D8; border-radius: 10%; padding: 20px; margin-left:290px; border: 1px solid black; }
+#menu .blank3 {float: left; background-color: #D4c4A4; border-radius: 10%; padding: 20px; margin-left:300px; border: 1px solid black; }
+#menu .blank4 {float: left; background-color: #B9B9D6; border-radius: 10%; padding: 20px; margin-left:310px; border: 1px solid black; }
+#menu .blank5 {float: left; background-color: #B3D6B3; border-radius: 10%; padding: 20px; margin-left:320px; border: 1px solid black; }
+#menu .blank6 {float: left; background-color: #D2A7A7; border-radius: 10%; padding: 20px; margin-left:300px; border: 1px solid black; }
+#menu .blank7 {float: left; background-color: #D6D6A8; border-radius: 10%; padding: 20px; margin-left:280px; border: 1px solid black; }
+
+    
+#menu { position: fixed; right: 300px; width: 200px; margin: 40px; top: -10px;  height: 600px; border:  }
+#menu .box { float: left; background-color: #bfbfbf; -webkit-transition: all 1s awesome; border-radius: 10%; padding: 8px; margin-left:300px; font-size: 24px;}
+#menu .box:hover, #PB:hover { cursor: pointer; background-color: #7fadff; border-radius: 220px 220px 220px 220px; color: #ff3b00; -webkit-transform: perspective(12px); }
+#menu h1, { padding:0; margin-bottom: 25px; color: #1F1F27; text-shadow:0 0 3px white; font-family: "Luckiest Guy", sans-serif; text-transform: uppercase; font-weight:normal; font-size: 64px; }
+#PB {background-color: #B3D8D8; border-radius: 10%; padding: 20px; margin-left:60px; font-family: "Luckiest Guy", sans-serif;}
+
+/* This is Tetris area */
+#tetris { width: 500px; position: absolute; right: 460px; padding-right: 10px; }
+
+#info { margin-top: 100px; margin-right: 6px; background-color: #000; opacity: 0.9; color: #fff; border: 1px solid grey; border-radius: 10px; font-family: Garamond; float: right; width: 180px; height: 440px; padding-left: 10px;}
+#next_shape { position: relative; background-color: #000; width: 160px; height: 110px; }   
+#canvas { margin-top: 100; width: 300px; height: 600px; background-color: #000; opacity: 0.9; position: absolute; border: 1px solid grey; border-radius: 10px; color: #fff;}
+#canvas h1 { margin: 0; padding: 0; text-align: center; font-size: 42px; padding-top: 200px; font-family: "Luckiest Guy", sans-serif;}
+
+.piece { border: 2px solid black; position: absolute; }
+    
+.square { position: absolute; width: 28px; height: 28px; border: 1px solid black; }
+
+    .type0 { background-color: #C9B0D6;}   
+    .type1 { background-color: #B3D8D8;} 
+    .type2 { background-color: #D4c4A4;}  
+    .type3 { background-color: #B9B9D6;}
+    .type4 { background-color: #B3D6B3;} 
+    .type5 { background-color: #D2A7A7;} 
+    .type6 { background-color: #D6D6A8;}
+  
